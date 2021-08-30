@@ -6,6 +6,7 @@
   --color-dark-gray: #2f303a;
   --card-set-gap: 30px;
   --button-set-gap: 8px;
+  --icon-gray: #afb1b8;
 }
 
 .body {
@@ -239,25 +240,11 @@ h1, h2, h3, p {
   flex-basis: calc((100% - 120px) / 4);
 }
 
-/* .central-list-item:nth-child(1)::before {
-  display: block;
-  content: "";
+.icon-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 120px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #f5f4fa;
-  border-radius: 4px;
-  margin-bottom: 30px;
-  background-image: url(../images/antenna.svg);
-  outline: 1px solid red;
-} */
-
-.antenna-block {
-  display: block;
-  content: "";
-  height: 120px;
-  background-repeat: no-repeat;
-  background-position: center;
   background-color: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
@@ -267,7 +254,7 @@ h1, h2, h3, p {
   position: center;
 }
 
-.central-list-item:nth-child(2)::before {
+/* .central-list-item:nth-child(2)::before {
   display: block;
   content: "";
   height: 120px;
@@ -301,7 +288,7 @@ h1, h2, h3, p {
   border-radius: 4px;
   margin-bottom: 30px;
   background-image: url(../images/astronaut.svg);
-}
+} */
 
 .card-set-one > .central-list-item:not(:last-child) {
   margin-right: 30px;
@@ -420,7 +407,7 @@ h1, h2, h3, p {
 }
 
 .socials-icon {
-  fill: #afb1b8;
+  fill: var(--icon-gray);
 }
 
 .socials-link:hover,
