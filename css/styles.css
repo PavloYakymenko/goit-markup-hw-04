@@ -532,6 +532,22 @@ h1, h2, h3, p {
   background-color: var(--brand-color);
 }
 
+.join-us-title {
+  font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 20px;
+margin-top: 10px;
+}
+
+.join-us {
+  margin-left: 70px;
+  margin-top: 5px;
+}
+
+
 /* ----------------------------PORTFOLIO--------------- */
 
 .portfolio-container {
