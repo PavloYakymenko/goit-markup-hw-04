@@ -510,6 +510,28 @@ h1, h2, h3, p {
   display: flex;
 }
 
+.socials-link-footer {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.socials-icon-footer {
+  fill: #ffffff;
+}
+
+.socials-link-footer:hover,
+.socials-link-footer:focus,
+.socials-link-footer:hover .socials-icon-footer,
+.socials-link-footer:focus .socials-icon-footer {
+  fill: #ffffff;
+  background-color: var(--brand-color);
+}
+
 /* ----------------------------PORTFOLIO--------------- */
 
 .portfolio-container {
