@@ -72,9 +72,13 @@ h1, h2, h3, p {
 .icon-mail,
 .icon-phone {
   margin-right: 10px;
-  /* margin-left: 30px; */
-  fill: var(--color-gray);
+  margin-left: 35px;
+  /* fill: var(--color-gray); */
 }
+
+/* .icon-mail{
+  fill: var(--color-gray);
+} */
 
 .header-container {
   height: 80px;
@@ -162,7 +166,13 @@ h1, h2, h3, p {
 }
 
 .mail-link {
-  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.tel-link {
+  display: flex;
+  align-items: center;
 }
 
 .mail-link:hover,
