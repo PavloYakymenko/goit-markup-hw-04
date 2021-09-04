@@ -166,6 +166,7 @@ h1, h2, h3, p {
 .mail-link,
 .tel-link {
   color: var(--color-gray);
+  fill: #757575;
 }
 
 .mail-link {
@@ -378,7 +379,6 @@ h1, h2, h3, p {
   flex-basis: calc(100% / 4 - var(--card-set-gap));
   margin-left: var(--card-set-gap);
   margin-top: var(--card-set-gap);
-  background-color: #ffffff;
 }
 
 /* .team-img-thumb {
